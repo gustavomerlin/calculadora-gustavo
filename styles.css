@@ -3,7 +3,7 @@
     padding: 0;
 }
 .fundo{
-    background-image: linear-gradient(45deg, grey, black);
+    background-image: linear-gradient(45deg, rgb(247, 169, 2), black);
     height: 100vh;
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -11,7 +11,7 @@
 }
 .Calculadora{
     position: absolute;
-    background-color: rgba(222, 219, 219, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -25,13 +25,13 @@
     margin: 3px;
     font-size: 25px;
     cursor: pointer;
-    background-color: grey;
+    background-color:rgb(116, 116, 116);
     border: none;
     color: black;
 }
 .botao:hover{
     background-color: black;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #resultado{
     background-color: white;
