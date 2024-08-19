@@ -11,14 +11,14 @@ HTML
     </head>
     <body>
         <div class="fundo">
-            <h1>Criado por Gustavo</h1>
+            <h1 class="Gustavo">Criado por Gustavo</h1>
             <div class="Calculadora">
                 <h1>Calculadora</h1>
                 <p id="resultado"></p>
                 <table>
                     <tr>
-                        <td><button class="botao">C</button></td>
-                        <td><button class="botao"><</button></td>
+                        <td><button class="botao"onclick="clean()">C</button></td>
+                        <td><button class="botao"onclick= "back()"><</button></td>
                         <td><button class="botao" onclick="insert('/')">/</button></td>
                         <td><button class="botao"onclick="insert('*')">X</button></td>
                     </tr>
@@ -39,11 +39,11 @@ HTML
                         <td><button class="botao"onclick="insert('2')">2</button></td>
                         <td><button class="botao"onclick="insert('3')">3</button></td>
                     
-                        <td rowspan="2"><button class="botao" style="height: 106px;">=</button></td>
+                        <td rowspan="2"><button class="botao" style="height: 106px;"onclick="calcular()">=</button></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><button class="botao" style="width: 106px;">0</button></td>
-                        <td><button class="botao">.</button></td>
+                        <td colspan="2"><button class="botao" style="width: 106px;"onclick="insert('0')">0</button></td>
+                        <td><button class="botao"onclick="insert('.')">.</button></td>
                     </tr>
                 </table>
             </div>
